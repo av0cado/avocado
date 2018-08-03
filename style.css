@@ -1,0 +1,433 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #808080;
+    color: #595959;
+    font-family: font-family: 'Spoqa Han Sans', 'Sans-serif';
+    font-weight: 100;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ol {
+    list-style: none;
+}
+
+#frame {
+    background-color: #FFF;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#left-blank {
+    float: left;
+    width: 15%;
+    height: 10px;
+    
+}
+
+#right-blank {
+    float: left;
+    width: 15%;
+    height: 10px;
+    
+}
+
+
+#nav {
+    position: fixed;
+    top: 0;
+    max-width: 1920px;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    background-color: aliceblue;
+    border-bottom: 0px solid transparent;
+}
+
+#title {
+    float: left;
+    padding: 0.6em 1.5em;
+    font-weight: 100;
+}
+
+#nav ol li {
+    width: 180px;
+    float: right;
+    text-align: center;
+    font-size: 32pt;
+    padding: 0.2em 1em ;
+
+}
+
+.headline {
+    
+    text-align: center;
+    padding: 2em;
+}
+
+.headline2 {
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    padding: 2em;
+    color: #886CFF;
+}
+
+.description {
+    padding: 2em;
+}
+#footer {
+    color: aliceblue;
+    text-align: center;
+    background-color: #3B4443;
+    overflow: hidden;
+}
+
+#logo {
+    width: 500px;
+    height: 150px;
+    align-content: center;
+   
+}
+
+#gallery {
+     overflow: hidden;
+    align-content: center;
+    margin: 0 auto;
+    
+}
+
+  
+
+
+
+/* Desktop */
+@media screen and (min-width:481px) {
+   
+    #header {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        background-position: center center;
+        background-size: cover;
+    }   
+    
+    #image1 {
+        margin: 0 auto;
+        width: 400px;
+        height: 400px;
+        
+    }
+     #logo {
+        margin: 0 auto;
+        width:300px;
+        height: 170px;
+      
+    }
+    
+    #logo-text{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    #content {
+        max-width: 1280px;
+        min-width: 1080px;
+        margin: 0 auto;
+        margin-bottom: 200px;
+        border: 0px dashed red;
+    }
+    
+    #introduce {
+        margin: 0 0 7em 0;
+        overflow: hidden;
+    }
+    
+    #method {
+        margin: 0 0 7em 0;
+        margin-top: 7em;
+        overflow: hidden;
+    }
+
+    
+   
+    
+    #intro-image {
+        width: 240px;
+        height: 240px;
+        float: left;
+        margin: 0 2em;
+       
+    }
+    
+    #intro-text {
+        width: 60%;
+        float:right;
+        margin: 0 5em 0 0;
+        border: 0px solid orange;
+    }
+    
+    #spec {
+        width: 200px;
+        float: left;
+        margin: 0 0 0 3em;
+        border: 0px solid blue;
+    }
+    
+    #personalities {
+        overflow: hidden;
+    }
+    
+    #left {
+        float: left;
+        margin: 0 4.1666%;
+        width: 25%;
+        text-align: center;
+    }
+     #left1 {
+        float: left;
+        margin: 0 3%;
+        width: 30%;
+        text-align: center;
+         
+        
+    }
+    
+    #right {
+        float: right;
+        margin: 0 4.1666%;
+        margin-top: 5%;
+        width: 25%;
+        text-align: center;
+    }
+    
+    #middle {
+        float: left;
+        margin: 0 4.1666%;
+        margin-top: 8%;
+        width: 25%;
+        text-align: center;
+    }
+    
+    #middle1 {
+        float: left;
+        margin: 0 3%;
+        width: 30%;
+        text-align: center;
+    }
+    
+    #G {
+        
+    }
+    
+    .icon {
+        display: block;
+        width: 30px;
+        height: 28px;
+        margin: 50px auto;
+        border: 0px dashed red;
+    }
+    
+    #article h2 {
+        letter-spacing: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+        border: 0px dashed blue;
+    }
+    
+    #article p {
+/*
+        letter-spacing: 10px;
+        word-spacing: 20px;
+        line-height: 1.5em;
+*/
+        text-align: left !important;
+        border: 0px dotted green;
+    }
+    
+    #footer {
+        height: 280px;
+    }
+    
+    #social {
+        margin: 70px auto;
+        border: 0px dashed red;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width:480px) {
+    
+    
+    #image1{
+        width:0px;
+        height: 0px;
+    }
+    
+    p {
+        font-size: 0.9em;
+    }
+    
+    #nav {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        
+    }
+    
+    #nav ol li {
+        width: 70px;
+        padding: 0.35em;
+        margin: 0 auto;
+        margin-top: 0.2em;
+        font-size: 0em;
+    }
+    
+    #title {
+        text-align: center;
+        font-size: 1.2em;
+        padding: 0.25em;
+        padding-top: 0.1em;
+       
+    }
+    
+     #method {
+        margin: 0 0 0em 0;
+       
+        overflow: hidden;
+    }
+
+    
+    #header {
+        width: 100%;
+        height: 200px;
+        background: url('./images/riso4.jpg') no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    #logo {
+        margin: 0 auto;
+        width: 300px;
+        height: 180px;
+       
+    }
+    
+     #logo-text {
+        font-size: 1em;
+        margin: 0 auto;
+        width: 300px;
+        height: 80px;
+       
+    }
+    
+   
+    .headline {
+        font-size: 2em;
+    }
+    
+    #intro-image {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    
+    #intro-text {
+        display: none;
+    }
+    
+    #spec {
+        text-align: center;
+        margin: 3em 0;
+    }
+    
+    .column {
+        width: 90%;
+        margin: 3em auto;
+        text-align: center;
+    }
+    .column1 {
+        width: 90%;
+        margin: 2em auto;
+        text-align: center;
+    }
+    
+    .icon {
+        width: 40px;
+        margin: 2em 0;
+    }
+    
+    .column h2 {
+        margin: 2em 0;
+    }
+    
+    .column p {
+        text-align: justify;
+        padding: 0 1.5em;
+    }
+    
+    #social {
+        width: 75%;
+        margin: 2em auto;
+    }
+    
+    #footer p {
+        font-size: 0.8em;
+        margin-bottom: 6em;
+    }
+    
+    #footer { 
+        margin-top: 20em;
+    }
+    
+#left-blank {
+    float: left;
+    width: 0%;
+    height: 0px;
+    
+}
+
+#right-blank {
+    float: left;
+    width: 0%;
+    height: 0px;
+    
+}
+    #gallery {
+     margin: 3em 3em 3em 3em;
+        
+    }
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
